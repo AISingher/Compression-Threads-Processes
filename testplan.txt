@@ -1,0 +1,43 @@
+Here are some of the testing conditions we checked for.
+
+File and parts error:
+
+Empty File
+Invalid file name
+Nonexistent file
+0 parts
+negative parts
+compress file into more parts than characters
+compressed files for that uncompressed file already exist
+
+File:
+
+small number of chars (1-5)
+medium number of chars (5-10)
+#large number of chars (10-50)
+
+
+Split:
+
+odd split (aaaaa)
+even split (aaaaaa)
+perfect split (aa split by 2)
+small number of parts (1-5)
+medium number of parts (5-10)
+#large number of parts (10-50)
+
+
+Alphabetical vs non-alphabetical:
+
+All non-alphabetical characters
+All alphabetical characters
+Alphabetical characters followed by non-alphabetical
+non-alphabetical characters followed by alphabetical
+Alternating alphabetical and non-alphabetical characters
+
+Test cases from Asst2.pdf:
+
+jjjjjjjjoooaaaaanrr
+hhhhhhhiiiiii
+oooo
+
